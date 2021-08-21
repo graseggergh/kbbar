@@ -1,0 +1,6 @@
+[submodule "icons"]
+	path = icons
+	url = https://github.com/uiwjs/icons
+[submodule "iA-Fonts"]
+	path = iA-Fonts
+	url = https://github.com/iaolo/iA-Fonts
