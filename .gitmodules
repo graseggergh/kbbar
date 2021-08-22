@@ -4,3 +4,6 @@
 [submodule "iA-Fonts"]
 	path = iA-Fonts
 	url = https://github.com/iaolo/iA-Fonts
+[submodule "tamzen-font"]
+	path = tamzen-font
+	url = https://github.com/sunaku/tamzen-font

@@ -23,7 +23,7 @@ pub mod content {
                 icon_bottom_left: Some('i'),
                 text_bottom_left: Some("text".to_string()),
                 icon_bottom_right: Some('i'),
-                text_bottom_right:  Some("text".to_string()),
+                text_bottom_right: Some("text".to_string()),
             }
         }
     }

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-time=$(date +"%H:%m")
+time=$(date +"%H:%M")
 
 muted="$(osascript -e 'get volume settings' | sed -e 's/.*://')"
 volume="mute"
@@ -19,8 +19,8 @@ echo "{ \
   \"text_top_left\": \"$time\", \
   \"icon_top_right\": \"\", \
   \"text_top_right\": \"$(printf %5s $volume)\", \
-  \"icon_bottom_left\": \"\", \
+  \"icon_bottom_left\": \"\", \
   \"text_bottom_left\": \"$(printf %5s $uptime)\", \
   \"icon_bottom_right\": \"\", \
   \"text_bottom_right\": \"$(printf %5s $version)\" \
-}" | cargo run --release && open kittens.png
+}" | cargo run --release
